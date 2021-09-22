@@ -1,0 +1,111 @@
+@import "./animation";
+
+html{
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/bg-ck.svg);
+    background-size: 200%;
+}
+
+section{
+    position: absolute;
+    width: 42rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+
+    &.default{
+        background-color: $white;
+    }
+
+    &.dark{
+        background-color: $dark-ligth;
+    }
+
+    &.blue{
+        background-color: $blue-ligth;
+    }
+
+    &.red{
+        background-color: $red-ligth;
+    }
+
+    &.pink{
+        background-color: $pink-ligth;
+    }
+
+    &.green{
+        background-color: $green-ligth;
+    }
+}
+
+label{
+    display: block;
+}
+
+h2,
+p,
+select,
+label{
+    margin-bottom: 1rem;
+}
+
+h2,
+label,
+p{
+    &.default{
+        color: $white;
+    }
+
+
+    &.blue{
+        color: $blue;
+    }
+
+    &.pink{
+        color: $pink;
+    }
+
+    &.green{
+        color: $green;
+    }
+
+    &.blue-blu{
+        color: $bg-button;
+    }
+}
+
+input,
+select{
+    width: 50%;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+select{
+    background-color: $bg-select;
+}
+
+input{
+    background-color: $bg-button;
+    color: $white;
+    font-weight: 600;
+}

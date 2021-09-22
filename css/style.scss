@@ -1,0 +1,26 @@
+*{
+    padding:0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+$bg-default: #D1DCFD;
+$white: #ffff;
+$bg-select: #e8eeff;
+$bg-button: #1C54F5;
+$blue: #0D2775;
+$blue-ligth: #5884FF;
+$red: #C60E08;
+$red-ligth: #E0504E;
+$pink: #FF008A;
+$pink-ligth: #FF4EAF;
+$green: #00881F;
+$green-ligth: #4EB360;
+$dark: #303030;
+$dark-ligth: #707070;
+$aqua: #1FAFA9;
+
+
+@import"./parameters";

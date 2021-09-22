@@ -1,0 +1,15 @@
+.animate{
+    animation: cookie 50s ease infinite alternate;
+}
+
+@keyframes cookie {
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 50% 75%;
+    }
+    100%{
+        background-position: 25% 100%;
+    }
+}
