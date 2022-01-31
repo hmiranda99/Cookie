@@ -10,7 +10,7 @@ facilitando o acesso em produtos que combinam com o nosso perfil.
 
 💻Atividade feita na aula de Programação Web II.
 
-🚀Skils: html, sass e php.
+🚀Skills: html, sass e php.
 
 ##
 
